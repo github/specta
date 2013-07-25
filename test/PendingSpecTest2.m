@@ -31,7 +31,6 @@ SpecEnd
   expect([result testCaseCount]).toEqual(12);
   expect([result failureCount]).toEqual(0);
   expect([result hasSucceeded]).toEqual(YES);
-  expect([result pendingTestCaseCount]).toEqual(12);
 }
 
 @end
