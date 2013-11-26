@@ -475,11 +475,6 @@
 				E9B777FB14BA329400D8DC76 /* SPTSpec.h in Headers */,
 				E9B777FC14BA329400D8DC76 /* SPTExample.h in Headers */,
 				E9B777FD14BA329400D8DC76 /* SPTExampleGroup.h in Headers */,
-				CDB75B35176E427900FF6631 /* SenTestLog+Specta.h in Headers */,
-				CDB75B4D176E6BA900FF6631 /* SenTestCase+Specta.h in Headers */,
-				CDF6BA4F176D3F6100212B6A /* SPTDefaultReporter.h in Headers */,
-				CDB75B47176E69F000FF6631 /* SenTestRun+Specta.h in Headers */,
-				CDF6BA37176CF53300212B6A /* SPTReporter.h in Headers */,
 				E9D3DEDB157A3F3D0054978E /* SPTSharedExampleGroups.h in Headers */,
 				E9B777FE14BA329400D8DC76 /* SPTSenTestCase.h in Headers */,
 				E944CA2A14C4B5E300821DED /* SPTSenTestInvocation.h in Headers */,
@@ -498,11 +493,6 @@
 				E9D9421114B8B42A00CD833A /* SPTExample.h in Headers */,
 				E9D9421314B8B42A00CD833A /* SPTExampleGroup.h in Headers */,
 				E9D3DEDA157A3F3D0054978E /* SPTSharedExampleGroups.h in Headers */,
-				CDB75B34176E427900FF6631 /* SenTestLog+Specta.h in Headers */,
-				CDB75B4C176E6BA900FF6631 /* SenTestCase+Specta.h in Headers */,
-				CDF6BA4E176D3F6100212B6A /* SPTDefaultReporter.h in Headers */,
-				CDB75B46176E69F000FF6631 /* SenTestRun+Specta.h in Headers */,
-				CDF6BA36176CF53300212B6A /* SPTReporter.h in Headers */,
 				E9D9421614B8B42A00CD833A /* SPTSpec.h in Headers */,
 				E9B7778014B9E15300D8DC76 /* SPTSenTestCase.h in Headers */,
 				E944CA2914C4B5E300821DED /* SPTSenTestInvocation.h in Headers */,
@@ -841,7 +831,7 @@
 		88997CBD1728927A00C569A6 /* Test */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/Specta_iOS.dst;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -875,7 +865,7 @@
 		88997CBF1728927A00C569A6 /* Test */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -901,7 +891,7 @@
 		E9B777C614BA294C00D8DC76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/Specta_iOS.dst;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -916,7 +906,7 @@
 		E9B777C714BA294C00D8DC76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/Specta_iOS.dst;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -931,7 +921,7 @@
 		E9B777C914BA294C00D8DC76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -957,7 +947,7 @@
 		E9B777CA14BA294C00D8DC76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
